@@ -12,7 +12,7 @@ an intelligent chatbot for mineral identification and knowledge exploration, com
 - **knowledge base management**: User-editable knowledge bases with CSV storage
 - **aiml conversational interface**: Natural language understanding and intent routing
 
-## Tech Stack
+## libs
 
 - **Keras Tuner** - Hyperparameter optimization
 - **scikit-learn** - Machine learning and NLP (TF-IDF, cosine similarity)
@@ -30,7 +30,7 @@ pip install tensorflow keras keras-tuner scikit-learn nltk pandas numpy
 pip install python-aiml SpeechRecognition pyttsx3
 ```
 
-### Running the Chatbot
+### initalise chatbot 
 
 ```bash
 python mineral-bot.py
