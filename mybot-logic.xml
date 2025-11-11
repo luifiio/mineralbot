@@ -1,0 +1,75 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+<!-- task b  -->
+<category><pattern> I KNOW THAT * IS *</pattern>
+  <template>#31$<star index="1"/> is <star index="2"/></template></category>  
+
+<category><pattern> CHECK THAT * IS *</pattern>
+  <template>#32$<star index="1"/> is <star index="2"/></template></category>  
+
+  <category><pattern> CHECK THAT * IS A *</pattern>
+  <template>#32$<star index="1"/> is <star index="2"/></template></category> 
+
+
+<!--- qa/kb / task a -->
+<category>
+    <pattern>WHAT IS A *</pattern>
+    <template>#35$<star/></template>
+</category>
+
+<category>
+    <pattern>WHAT IS AN *</pattern>
+    <template>#35$<star/></template>
+</category>
+
+<category>
+    <pattern>WHAT IS *</pattern>
+    <template>#35$<star/></template>
+</category>
+
+<category>
+    <pattern>WHAT ARE *</pattern>
+    <template>#35$<star/></template>
+</category>
+
+<category>
+    <pattern>HOW MANY *</pattern>
+    <template>#35$<star/></template>
+</category>
+
+<category><pattern> DEFINE * </pattern>
+      <template>#35$<star/></template>
+</category>
+
+<category><pattern> DEFINE * AS * </pattern>
+      <template>#35$<star/></template>
+</category>
+
+
+<category><pattern> WHATS * </pattern>
+      <template>#35$<star/></template>
+</category>
+
+<category><pattern> WHATS IS THE MOST * </pattern>
+      <template>#35$<star/></template>
+</category>
+
+
+<!-- image classification task c-->
+
+<category>
+    <pattern>WHAT IS THIS IMAGE</pattern>
+    <template>#34$Please provide the image file path.</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES THIS IMAGE SHOW</pattern>
+    <template>#34$Please provide the image file path.</template>
+</category>
+
+<!-- Default reaction -->
+<category><pattern> * </pattern>
+  <template>#99$<star index="1"/></template></category>
+
+</aiml>

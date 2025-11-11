@@ -1,0 +1,32 @@
+Fact
+# diaphanetiy
+Diaphanetiy_Transparent(X) -> Transparent(X)
+Diaphanetiy_Opaque(X) -> Opaque(X)
+Diaphanetiy_Translucent(X) -> Translucent(X)
+# crystal structure 
+CrystalStructure_Hexagonal(X) -> Hexagonal(X)
+CrystalStructure_Orthorhombic(X) -> Orthorhombic(X)
+CrystalStructure_Monoclinic(X) -> Monoclinic(X)
+CrystalStructure_Tetragonal(X) -> Tetragonal(X)
+CrystalStructure_Trigonal(X) -> Trigonal(X)
+CrystalStructure_Triclinic(X) -> Triclinic(X)
+CrystalStructure_Cubic(X) -> Cubic(X)
+CrystalStructure_Amporhous(X) -> Amporhous(X)
+#optical
+Optical_Isotropic(X) -> Isotropic(X)
+Optical_Uniaxial(X) -> Uniaxial(X)
+Optical_Biaxial(X) -> Biaxial(X)
+Optical_Anisotropic(X) -> Anisotropic(X)
+# minerals
+Mineral(abhurite)
+Diaphanetiy_Transparent(abhurite)
+CrystalStructure_Hexagonal(abhurite)
+Mineral(biotite)
+Diaphanetiy_Opaque(biotite)
+CrystalStructure_Monoclinic(biotite)
+Mineral(curite)
+Diaphanetiy_Transparent(curite)
+CrystalStructure_Orthorhombic(curite)
+Mineral(diaspore)
+Diaphanetiy_Translucent(diaspore)
+CrystalStructure_Orthorhombic(diaspore)

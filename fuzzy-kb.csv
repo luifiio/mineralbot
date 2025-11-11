@@ -1,0 +1,17 @@
+Fact,TruthValue
+#mosshardness,
+MohsHardness(abhurite),0.1
+MohsHardness(biotite),0.2
+MohsHardness(curite),0.9
+MohsHardness(quartz),1.0
+#refractiveindex,
+RefractiveIndex(abhurite),0.9
+RefractiveIndex(biotite),0.1
+RefractiveIndex(curite),0.9
+RefractiveIndex(quartz),0.1
+#density ,
+Density(abhurite),0.9
+Density(biotite),0.1
+Density(curite),0.9
+Density(quartz),0.1
+Mineral(pyrite),0.0
